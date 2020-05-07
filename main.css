@@ -1,20 +1,20 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: rgb(2, 2, 146);
     
     margin: 0;
     padding: 0;
 
     text-align: center;
-    color: aqua;
+    color: white;
 }
 #banner {
-    background-color: darkblue;
+    background-color: rgb(2, 2, 110);
 }
 #bottom_banner {
     text-align: left;
-    background-color: darkblue;
+    background-color: rgb(2, 2, 110);
 }
 hr{
     margin: 0;
