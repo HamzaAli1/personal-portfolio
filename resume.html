@@ -3,6 +3,12 @@
     <head>
         <title>Hamza Ali - Resume</title>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript">
+            function resumeLoaded(iframe) {
+                iframe.width = iframe.contentWindow.document.body.scrollWidth + "px";
+                iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+            }
+          </script>   
     </head>
     <body>
         <div id="banner">
@@ -14,9 +20,13 @@
             </ul>
         </div>
         <hr id="banner">
-        <h2>Resume</h2>
-        <div id="resume">
-            <h3 style="margin-top: 10px; margin-bottom: 10px;">Objective</h3>
+        <h2>Interactive Resume</h2>
+        <p>Feel free to zoom in :)</p>
+        <div>
+            <iframe id="resume", src="resume_doc.html", width="650", height="800", onload="resumeLoaded(this)", style="border: none;"></iframe>
+        </div>
+            
+            <!-- <h3 style="margin-top: 10px; margin-bottom: 10px;">Objective</h3>
             <p style="margin-top: 10px;">To expand my knowledge of Computer Science and pursue a career in software development.</p>
 
             <h3 style="margin-top: 10px; margin-bottom: 10px;">Academics</h3>
@@ -39,8 +49,8 @@
                 </li>
             </ul>
 
-            <h3 style="margin-top: 10px; margin-bottom: 10px;">Skills</h3>
-        </div>
+            <h3 style="margin-top: 10px; margin-bottom: 10px;">Skills</h3> 
+        </div> -->
         <!--<img width="400" src="images/coldham.jpg" title="I was attacked by an ice wizard. Luckily, I was prepared and came out of the encounter unscathed.">-->
         <br><br>
         <hr id="banner">
@@ -49,7 +59,7 @@
                     <pre style="margin: 0;">
 
     By: Hamza Ali
-    Last Updated: 05/07/2020 <!--Update this before every commit-->
+    Last Updated: 09/15/2020 <!--Update this before every commit-->
                     </pre>
             </address>
         </div>
